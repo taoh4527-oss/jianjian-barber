@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>简剪 BARBER | 理发与造型</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+  background: #f6f1e8;
+  color: #211f1b;
+  line-height: 1.7;
+}
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd4c7;
+}
+.logo { font-weight: 800; letter-spacing: 2px; }
+nav a {
+  color: #211f1b;
+  text-decoration: none;
+  margin-left: 12px;
+  font-size: 13px;
+}
+.hero {
+  background: #211f1b;
+  color: #f6f1e8;
+  padding: 65px 24px;
+  text-align: center;
+}
+.hero p { color: #d3c6b5; }
+.hero h1 { font-size: 38px; margin: 12px 0; }
+.btn {
+  display: inline-block;
+  background: #c9a875;
+  color: #211f1b;
+  text-decoration: none;
+  padding: 11px 22px;
+  margin-top: 15px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+section { padding: 38px 22px; max-width: 760px; margin: auto; }
+h2 { font-size: 25px; margin-bottom: 8px; }
+.muted { color: #746d63; }
+.service {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 17px 0;
+  border-bottom: 1px solid #ddd4c7;
+}
+.price { font-weight: bold; white-space: nowrap; }
+.info {
+  background: #eae2d5;
+  padding: 22px;
+  border-radius: 5px;
+  margin-top: 18px;
+}
+footer {
+  background: #211f1b;
+  color: #d3c6b5;
+  text-align: center;
+  padding: 24px 15px;
+  font-size: 13px;
+}
+@media (max-width: 380px) {
+  header { padding: 15px 12px; }
+  nav a { margin-left: 7px; font-size: 12px; }
+  .hero h1 { font-size: 31px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">简剪 BARBER</div>
+  <nav>
+    <a href="#services">服务</a>
+    <a href="#about">关于</a>
+    <a href="#contact">预约</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <p>YOUR STYLE, YOUR STORY</p>
+    <h1>剪出你的风格</h1>
+    <p>专注每一个细节，让每一次理发都成为享受。</p>
+    <a class="btn" href="#services">查看服务项目</a>
+  </div>
+
+  <section id="about">
+    <p class="muted">ABOUT US / 关于我们</p>
+    <h2>简单一点，精致一点。</h2>
+    <p>简剪 BARBER 致力于提供舒适、细致的理发体验。无论是日常修剪还是个人造型，都认真对待每一个细节。</p>
+  </section>
+
+  <section id="services">
+    <p class="muted">OUR SERVICES / 服务与价格</p>
+    <h2>服务项目</h2>
+    <div class="service"><span>普通理发</span><span class="price">$25</span></div>
+    <div class="service"><span>洗剪吹</span><span class="price">$35</span></div>
+    <div class="service"><span>胡须修整</span><span class="price">$15</span></div>
+    <p class="muted">以上为示例价格，正式营业前请确认。</p>
+  </section>
+
+  <section>
+    <p class="muted">OPENING HOURS / 营业时间</p>
+    <h2>营业时间</h2>
+    <div class="info">
+      <p>周一至周六：10:00 – 20:00</p>
+      <p>周日：休息</p>
+      <p class="muted">注意：以上为示例时间，请确认后再对外公布。</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="muted">CONTACT / 联系我们</p>
+    <h2>预约你的下一次造型</h2>
+    <p>欢迎提前联系，了解服务或预约时间。</p>
+    <div class="info">
+      <p>联系电话：请替换为真实电话号码</p>
+      <p>预约方式：电话联系</p>
+    </div>
+    <p class="muted">填写真实号码后，才能启用点击拨号功能。</p>
+  </section>
+</main>
+
+<footer>
+  <p>简剪 BARBER</p>
+  <p>让每一次剪裁，都恰到好处。</p>
+  <p>© 2026 简剪 BARBER</p>
+</footer>
+</body>
+</html>
